@@ -17,3 +17,11 @@ Consigli del giorno:
 3. si ma noi cosa vogliamo fare?
 4. torniamo a scrivere in italiano
 5. proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo "a mano"
+
+<!-- SOTTOPROBLEMI MAIL -->
+1) dichiaro una variabile array contenente l'elenco di vari indirizzi email;
+2) dichiaro una variabile e permetto all'utente di inserirne il valore tramite prompt;
+3) tramite un ciclo For, confronto la mail inserita dall'utente con quelle presenti nell'array una alla volta;
+4) Se la mail inserita dall'utente è uguale ad una presente nell'arrey:
+    4a) stampo in console un messaggio sull'esito positivo;
+5) altrimenti stampo in console un messaggio sull'esito negativo;
