@@ -25,3 +25,13 @@ Consigli del giorno:
 4) Se la mail inserita dall'utente è uguale ad una presente nell'arrey:
     4a) stampo in console un messaggio sull'esito positivo;
 5) altrimenti stampo in console un messaggio sull'esito negativo;
+
+<!-- SOTTOPROBLEMI DADI -->
+1) Dichiaro 2 variabili, una per il giocatore e l'altra per il computer, ad entrambe assegno un valore con un numero random da 1 a 6;
+2) Mostro in console il valore delle due variabili;
+3) Confronto la variabile del giocatore con la variabile del computer;
+4) se il numero del giocatore è più alto del numero del computer:
+    4a) stampo in console "Giocatore vince il gioco dei dadi";
+5) se il numero del computer è più alto del numero del giocatore:
+    5a) stampo in console "Computer vince il gioco dei dadi";
+6) altrimenti vorrà dire che i numeri sono uguali e dunque stampo in console "Pareggio, entrambi i giocatori hanno lo stesso numero";
