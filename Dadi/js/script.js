@@ -1,6 +1,6 @@
 // 1) Dichiaro 2 variabili, una per il giocatore e l'altra per il computer, ad entrambe assegno un valore con un numero random da 1 a 6;
-let player_number = parseInt(Math.random() * 6) +1;
-let cpu_number = parseInt(Math.random() * 6) +1;
+let player_number = Math.floor(Math.random() * 6) +1;
+let cpu_number = Math.floor(Math.random() * 6) +1;
 
 // 2) Mostro in console il valore delle due variabili;
 console.log("Il punteggio del giocatore è " + player_number)
