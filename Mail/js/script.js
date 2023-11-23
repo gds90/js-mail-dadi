@@ -1,5 +1,3 @@
-// MAIL
-
 // 1) creo la costante mail_list con 3 indirizzi email all'interno
 const mail_list = ['fabrizio@boolean.it', 'antonio@boolean.it', 'thomas@boolean.it']
 
