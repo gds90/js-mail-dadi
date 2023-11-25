@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&display=swap" rel="stylesheet">
+    <title>Dadi</title>
+</head>
+<body>
+    <div class="overlay pt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 content">
+                    <h1 class="personal-h1 text-uppercase my-5">Gioco dei dadi</h1>
+                    <div class="login_area">
+                        <span id="login_message" class="text-white">Effettua il log-in:</span>
+                    </div>
+                    <div class="d-flex justify-content-center my-3">
+                        <div class="input-group w-50">
+                            <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-dice"></i></span>
+                            <input id="mail" type="email" class="form-control" placeholder="Inserisci il tuo indirizzo e-mail" aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-light my-3 fs-5">Tira i dadi</button>
+                    <button type="button" class="btn btn-dark my-3 ms-2">Log-out</button>
+                </div>
+            </div>
+        </div>
+        <div id="game_area" class="container my-3">
+            <div class="row  ">
+                <div class="col-12 col-md-4 content">
+                    <div class="text-center p-3 border rounded bg-opacity text-white">
+                        <h5>Giocatore</h5>
+                        <span>Numero:</span>
+                        <div class="number player_number">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 d-flex align-items-center justify-content-center content">
+                    <div>
+                        <span class="number">VS</span>
+                    </div>
+                </div>
+                <div class="col 12 col-md-4 content">
+                    <div class="  text-center p-3 border rounded bg-opacity text-white">
+                        <h5>CPU</h5>
+                        <span>Numero:</span>
+                        <div class="number cpu_number">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 content">
+                    <div id="result_area" class="  my-3 fs-3">
+                        <span id="result_message"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="./js/script.js"></script>
+</body>
+</html>
